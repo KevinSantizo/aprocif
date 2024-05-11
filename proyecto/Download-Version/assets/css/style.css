@@ -70,9 +70,9 @@ Version: 1.0.0
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
-  --theme-color: #fd5115;
-  --secondary-color: #001a71;
-  --title-color: #1e2b56;
+  --theme-color: #FFC100;
+  --secondary-color: #001A62;
+  --title-color: #001A62;
   --body-color: #65666d;
   --smoke-color: #f3f5fc;
   --light-color: #d3d3d3;
@@ -6349,7 +6349,7 @@ blockquote.vs-quote2 p {
   font-size: 40px;
   color: var(--white-color);
   font-family: var(--title-color);
-  line-height: 1.15;
+  line-height: 1.4;
   margin-bottom: 8px;
   animation-delay: 0.2s;
 }
@@ -6447,7 +6447,7 @@ blockquote.vs-quote2 p {
 }
 .hero-layout2 .hero-title {
   font-size: 30px;
-  line-height: 1;
+  line-height: 1.4;
   animation-delay: 0.4s;
 }
 .hero-layout2 .hero-text {
@@ -6622,6 +6622,8 @@ blockquote.vs-quote2 p {
   letter-spacing: -0.5px;
   margin: -0.13em 0 20px 0;
   animation-delay: 0.4s;
+  line-height: 1.4;
+
 }
 .hero-layout3 .hero-text {
   font-size: 22px;
@@ -6681,6 +6683,7 @@ blockquote.vs-quote2 p {
   }
   .hero-layout1 .hero-title {
     font-size: 42px;
+    line-height: 1.4;
   }
   .hero-layout1 .hero-subtitle {
     font-size: 16px;
@@ -6702,6 +6705,7 @@ blockquote.vs-quote2 p {
   }
   .hero-layout2 .hero-title {
     font-size: 40px;
+    line-height: 1.4;
   }
   .hero-layout2 .hero-subtitle {
     font-size: 14px;
@@ -6776,6 +6780,7 @@ blockquote.vs-quote2 p {
   .hero-layout3 .hero-title {
     font-size: 52px;
     margin-bottom: 15px;
+    line-height: 1.4;
   }
   .hero-layout3 .hero-subtitle {
     font-size: 40px;
@@ -6795,6 +6800,7 @@ blockquote.vs-quote2 p {
   }
   .hero-layout1 .hero-title {
     font-size: 30px;
+    line-height: 1.4;
   }
   .hero-layout1 .hero-subtitle {
     font-size: 14px;
@@ -6815,6 +6821,7 @@ blockquote.vs-quote2 p {
   }
   .hero-layout2 .hero-title {
     font-size: 30px;
+    line-height: 1.4;
   }
   .hero-layout2 .hero-text {
     font-size: 18px;
@@ -6860,6 +6867,7 @@ blockquote.vs-quote2 p {
   }
   .hero-layout3 .hero-title {
     font-size: 40px;
+    line-height: 1.4;
   }
   .hero-layout3 .hero-text {
     font-size: 16px;
@@ -6881,12 +6889,14 @@ blockquote.vs-quote2 p {
   }
   .hero-layout1 .hero-title {
     font-size: 30px;
+    line-height: 1.4;
   }
   .hero-layout1 .hero-shape1 {
     max-width: 350px;
   }
   .hero-layout2 .hero-title {
     font-size: 25px;
+    line-height: 1.4;
   }
   .hero-layout3 .hero-inner {
     padding-top: 60px;
@@ -6899,6 +6909,7 @@ blockquote.vs-quote2 p {
   }
   .hero-layout3 .hero-title {
     font-size: 35px;
+    line-height: 1.4;
   }
   .hero-layout3 .hero-text {
     font-size: 14px;
@@ -6933,6 +6944,7 @@ blockquote.vs-quote2 p {
   }
   .hero-layout1 .hero-title {
     font-size: 25px;
+    line-height: 1.4;
   }
   .hero-layout1 .hero-shape1 {
     max-width: 300px;
@@ -6966,6 +6978,7 @@ blockquote.vs-quote2 p {
   }
   .hero-layout2 .hero-title {
     font-size: 30px;
+    line-height: 1.4;
   }
   .hero-layout2 .hero-text {
     max-width: 100%;
@@ -6984,6 +6997,7 @@ blockquote.vs-quote2 p {
   }
   .hero-layout3 .hero-title {
     font-size: 25px;
+    line-height: 1.4;
   }
   .hero-layout3 .hero-text {
     font-size: 14px;
