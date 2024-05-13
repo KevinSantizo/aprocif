@@ -9,7 +9,22 @@
         padding: 25px;
         border-radius: 40px;
         margin-top: 25px !important;
-    }   
+    } 
+    
+    footer ul {
+        list-style: none;
+        text-align: center;
+    }
+
+    footer div {
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    footer {
+        display:flex;
+    }
+ 
     </style>
     
     <meta charset="utf-8">
@@ -70,7 +85,7 @@
     <!--==============================
      Preloader
   ==============================-->
-    <div class="preloader  ">
+    <div class="preloader">
         <button class="vs-btn preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
             <img src="assets/img/logo3.png"  style="height: 150px; width: 300px;" alt="Bizino">
@@ -84,7 +99,7 @@
             <div class="vs-menu-area text-center">
                 <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
                 <div class="mobile-logo">
-                    <a href="index-2-slick"><img src="assets/img/logo3.png"  style="height: 150px; width: 300px;" alt="Bizino"></a>
+                    <a href="index-2-slick.html"><img src="assets/img/logo3.png"  style="height: 150px; width: 300px;" alt="Bizino"></a>
                 </div>
                 <div class="vs-mobile-menu">
                     <ul>
@@ -93,8 +108,8 @@
                             <ul class="sub-menu">
                                 <li><a href="history.html">Historia</a></li>
                                 <li><a href="about.html">¿Quiénes somos?</a></li>
-                                <li><a href="index-2.html">Visión, Misión, Valores</a></li>
-                                <li><a href="index-2-slick.html">Objetivos</a></li>
+                                <li><a href="mission.html">Visión, Misión, Valores</a></li>
+                                <li><a href="goals.html">Objetivos</a></li>
                                 <li><a href="index-3.html">¿Quiénes pueden unirse?</a></li>
                                 <li><a href="index-3-slick.html">¿Porqué unirse?</a></li>
                                 <li><a href="index-4.html">Membresías</a></li>
@@ -138,120 +153,115 @@
         <!--==============================
         Header Area
     ==============================-->
-        <header class="vs-header header-layout3">
-            <div class="header-top">
-                <div class="container">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col d-none d-lg-block">
-                            <div class="header-links">
-                                <ul>
-                                    <li><i class="fal fa-envelope-open-text"></i><a href="mailto:info@example.com">contac@aprocif.org</a></li> 
-                                </ul>
-                            </div>
+    <header class="vs-header header-layout3">
+        <div class="header-top">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col d-none d-lg-block">
+                        <div class="header-links">
+                            <ul>
+                                <li><i class="fal fa-envelope-open-text"></i><a href="mailto:info@example.com">contac@aprocif.org</a></li> 
+                            </ul>
                         </div>
-                        <div class="col-auto">
-                            <div class="header-dropdown">
-                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-globe"></i>English</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                                    <li>
-                                        <a href="#">German</a>
-                                        <a href="#">French</a>
-                                        <a href="#">Italian</a>
-                                        <a href="#">Latvian</a>
-                                        <a href="#">Spanish</a>
-                                        <a href="#">Greek</a>
-                                    </li>
-                                </ul>
-                            </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="header-dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-globe"></i>English</a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                                <li>
+                                    <a href="#">German</a>
+                                    <a href="#">French</a>
+                                    <a href="#">Italian</a>
+                                    <a href="#">Latvian</a>
+                                    <a href="#">Spanish</a>
+                                    <a href="#">Greek</a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="col-auto">
-                            <div class="header-social">
-                                <span class="social-label">Ponerse en contacto:</span>
-                                <a href="https://www.facebook.com/Aprocif" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/aprocif/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/company/aprocif/" target="_blank" ><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="col-auto">
+                        <div class="header-social">
+                            <span class="social-label">Ponerse en contacto:</span>
+                            <a href="https://www.facebook.com/Aprocif" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/aprocif/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/aprocif/" target="_blank" ><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sticky-wrapper">
+            <div class="sticky-active">
+                <div class="menu-area">
+                    <!-- Main Menu Area -->
+                    <div class="container">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-auto">
+                                <div class="header-logo">
+                                    <a href="index-2-slick"><img src="assets/img/logo3.png"  style="height: 150px; width: 300px;" alt="Bizino"></a>
+                                </div>
+                            </div>
+                            <div class="col-auto col-xl text-xl-center">
+                                <nav class="main-menu menu-style2 d-none d-lg-block">
+                                    <ul>
+                                        <li class="menu-item-has-children">
+                                            <a href="index-2-slick.html"><span class="has-new-lable">Inicio</span></a>
+                                            <ul class="sub-menu">
+                                                <li><a href="history.html">Historia</a></li>
+                                                <li><a href="about.html">¿Quiénes somos?</a></li>
+                                                <li><a href="mission.html">Visión, Misión, Valores</a></li>
+                                                <li><a href="goals.html">Objetivos</a></li>
+                                                <li><a href="index-3.html">¿Quiénes pueden unirse?</a></li>
+                                                <li><a href="index-3-slick.html">¿Porqué unirse?</a></li>
+                                                <li><a href="index-4.html">Membresías</a></li>
+                                            </ul>
+                                        </li>
+                                        <li  class="menu-item-has-children">
+                                            <a href="about.html">Servicios</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="index.html">Miembro Aproocif</a></li>
+                                                <li><a href="about.html">Latin Pharma</a></li>
+                                                <li><a href="index-2.html">Farma Empleo</a></li>
+                                                <li><a href="index-2-slick.html">Pharma Hunt</a></li>
+                                                <li><a href="index-3.html">Directoria Farmacéutico</a></li>
+                                                <li><a href="index-3-slick.html">Bitácora Farmacéutica</a></li>
+                                                <li><a href="index-4.html">Master Visita Médica</a></li>
+                                                <li><a href="index-4.html">Premios Aprocif</a></li>
+                                                <li><a href="index-4.html">Pharma Good Work Life</a></li>
+                                                <li><a href="index-4.html">Instituto Aprocif</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Eventos</a>
+                                        </li>
+                                        <li  class="menu-item-has-children">
+                                            <a href="contact.html">Noticias</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="index.html">Webinars</a></li>
+                                                <li><a href="about.html">Conferencias</a></li>
+                                               
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contacto</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Ejecutivos</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <button class="vs-menu-toggle d-inline-block d-lg-none"><i class="fal fa-bars"></i></button>
+                            </div>
+                            
+                            <div class="col-auto d-none d-xl-block">
+                                <a href="contact.html" class="vs-btn">Se miembro Aprocif</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="sticky-wrapper">
-                <div class="sticky-active">
-                    <div class="menu-area">
-                        <!-- Main Menu Area -->
-                        <div class="container">
-                            <div class="row align-items-center justify-content-between">
-                                <div class="col-auto">
-                                    <div class="header-logo">
-                                        <a href="index-2-slick"><img src="assets/img/logo3.png"  style="height: 150px; width: 300px;" alt="Bizino"></a>
-                                    </div>
-                                </div>
-                                <div class="col-auto col-xl text-xl-center">
-                                    <nav class="main-menu menu-style2 d-none d-lg-block">
-                                        <ul>
-                                            <li class="menu-item-has-children">
-                                                <a href="index-2-slick.html"><span class="has-new-lable">Inicio</span></a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="history.html">Historia</a></li>
-                                                    <li><a href="about.html">¿Quiénes somos?</a></li>
-                                                    <li><a href="index-2.html">Visión, Misión, Valores</a></li>
-                                                    <li><a href="index-2-slick.html">Objetivos</a></li>
-                                                    <li><a href="index-3.html">¿Quiénes pueden unirse?</a></li>
-                                                    <li><a href="index-3-slick.html">¿Porqué unirse?</a></li>
-                                                    <li><a href="index-4.html">Membresías</a></li>
-                                                </ul>
-                                            </li>
-                                            <li  class="menu-item-has-children">
-                                                <a href="about.html">Servicios</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="index.html">Miembro Aproocif</a></li>
-                                                    <li><a href="about.html">Latin Pharma</a></li>
-                                                    <li><a href="index-2.html">Farma Empleo</a></li>
-                                                    <li><a href="index-2-slick.html">Pharma Hunt</a></li>
-                                                    <li><a href="index-3.html">Directoria Farmacéutico</a></li>
-                                                    <li><a href="index-3-slick.html">Bitácora Farmacéutica</a></li>
-                                                    <li><a href="index-4.html">Master Visita Médica</a></li>
-                                                    <li><a href="index-4.html">Premios Aprocif</a></li>
-                                                    <li><a href="index-4.html">Pharma Good Work Life</a></li>
-                                                    <li><a href="index-4.html">Instituto Aprocif</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="contact.html">Eventos</a>
-                                            </li>
-                                            <li  class="menu-item-has-children">
-                                                <a href="contact.html">Noticias</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="index.html">Webinars</a></li>
-                                                    <li><a href="about.html">Conferencias</a></li>
-                                                   
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="contact.html">Contacto</a>
-                                            </li>
-                                            <li>
-                                                <a href="contact.html">Ejecutivos</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                    <button class="vs-menu-toggle d-inline-block d-lg-none"><i class="fal fa-bars"></i></button>
-                                </div>
-                                
-                                <div class="col-auto d-none d-xl-block">
-                                    <a href="contact.html" class="vs-btn">Se miembro Aprocif</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header> 
-      
-    </div> 
-    <section class="stage">
-        <figure class="ball"><span class="shadow"></span></figure>
-      </section>
+        </div>
+    </header>
     <section class="vs-blog-wrapper bg-smoke space" id="blog2">
         <div class="container">
             <div class="row justify-content-center">
@@ -282,20 +292,22 @@
                 </div> 
                 <br>
         </div>
-    </section><!--==============================
+    </section>
+    </div>  
+    <!--==============================
 			Footer Area
 	==============================-->
-    <footer class="footer-wrapper footer-layout3">
- 
-        <!--==============================
-    Gallery Area
-    ==============================-->
-        <div class="container  " data-sec-pos="bottom-half" data-pos-for=".copyright-wrap">
-            <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="6" data-lg-slide-show="5" data-md-slide-show="4" data-sm-slide-show="3" data-xs-slide-show="2">
-             
-            </div>
+    <footer >
+         
+        <div style="width: 100%; background-color: #0A5176; padding: 10px;">
+            
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <img src="assets/img/aproc.png" alt="image">
+                    </div>
+                    
+                </div> 
         </div>
-  
     </footer> <!-- Scroll To Top -->
     <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
 
