@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -17,6 +18,39 @@
         footer {
             display:flex; 
         }
+        .myul {
+            list-style: none;
+            margin:0; padding:0;
+        }
+        .myul .myli { 
+            
+            min-height:40px;
+            padding-left: 40px;
+        }
+
+        .card2 {
+            background: #784EE2; 
+            border-radius: 40px;
+            padding: 15px;
+            border-color: black;
+            border: 1px solid black ;
+            margin-top: 25px !important;
+            margin-left: 10px;
+            box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+        } 
+        .card1 {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            background: #4F20C4; 
+            border-radius: 40px;
+            padding: 15px;
+            border-color: black;
+            border: 1px solid black ;
+            margin-top: 15px !important;
+            margin-left: 10px;
+        } 
     </style>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -213,7 +247,7 @@
                                             <a href="about.html">Servicios</a>
                                             <ul class="sub-menu">
                                                 <li><a href="index.html">Miembro Aprocif</a></li>
-                                                <li><a href="latin_pharma.html">Latin Pharma</a></li>
+                                                <li><a href="latin_pharma.html">Latin Pharma</a></li> 
                                                 <li><a href="index-2.html">Farma Empleo</a></li>
                                                 <li><a href="index-2-slick.html">Pharma Hunt</a></li>
                                                 <li><a href="index-3.html">Directoria Farmacéutico</a></li>
@@ -225,7 +259,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Eventos</a>
+                                           <a href="contact.html">Eventos</a>
                                         </li>
                                         <li  class="menu-item-has-children">
                                             <a href="contact.html">Noticias</a>
@@ -256,80 +290,46 @@
         </div>
     </header>  
     <section class="vs-blog-wrapper bg-smoke space">
-        <div class="container">
-            <div class="row gx-4 vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-center-mode="true" data-lg-center-mode="true" data-ml-center-mode="true" data-xl-center-mode="true">
-                <div class="col-xl-4 feature-multi">
-                    <div  style="
-                        background-color: #0A5176;
-                        border: 2px solid transparent;
-                        transition: all ease 0.4s;
-                        margin: 0 0 30px 0;
-                        border-radius: 50px;
-                        box-shadow: none;
-                        border-color: black;
-                        height:600px;
-                    ">
-                        <div style="text-align: center; margin-top: 25px;"><img src="assets/img/mision.png"  alt="features image"></div>
-                        <div class="feature-content"> 
-                            <div style="padding-top: 25px; padding-left: 25px; padding-bottom: 55px; padding-right: 25px; color: white; font-size: 25px; text-align: center;">  
-                                "Fomentar la <span style="color: #FFFF00;">transformación positiva</span> de la industria farmacéutica y de la salud en latinoamérica,<span style="color: #FFFF00;"> promoviendo el diálogo, la colaboración y el desarrollo</span> continuo del sector."
-                            </div>
-                          </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 feature-multi">
-                    <div  style="
-                        background-color: #0A5176;
-                        border: 2px solid transparent;
-                        transition: all ease 0.4s;
-                        margin: 0 0 30px 0;
-                        border-radius: 50px;
-                        box-shadow: none;
-                        border-color: black;
-                        height:600px;
+        <div class="hero-layout2">
+            <div class="hero-inner" style="padding: 27px 0 100px 0;">
+                 <div class="hero-shape-335 jump"><img src="assets/img/sph4.png" alt="shape"></div>
+                <div class="hero-shape-773 rotate" ><img src="assets/img/sph2.png" alt="shape"></div>
+                <div class="hero-shape-882 rotate-reverse"><img src="assets/img/sph1.png" alt="shape"></div>
+                <div class="container">
+                    <div class="row gx-40">
+                        <div class="col-lg-6">
+                            <div class="vs-blog blog-single">
+                                <div class="blog-img" style="margin-bottom: -100px;">
+                                    <img width="500px" src="assets/img/latin2.png" alt="Blog Image">
+                                </div>
+                                <div class="blog-content" style="margin: 0px 105px 0 70px; background-color: #FFE190; text-align: center; padding: 20px; width:350px;">  
+                                    <div style="font-weight: bold; color: black;">Países: Centro América, Colombia, Perú y Bolivia</div>
+                                    <div style="font-weight: bold; color: black;">Lanzamiento: Jun / Jul 2024</div>
+                                    <div style="font-weight: bold; color: black;">Eventos: A partir de Jul 2024</div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="assets/img/lexpo2.png" alt="Blog Image">
 
-                    ">
-                        <div style="text-align: center; "><img src="assets/img/vision.png"  alt="features image"></div>
-                        <div class="feature-content"> 
-                            <div style="padding-top: 35px; padding-left: 25px; padding-bottom: 55px; padding-right: 25px; color: white; font-size: 25px; text-align: center;">  
-                                "<span style="color: #FFFF00;">Ser el referente </span>en latinoamérica que impulsa la innovación y la excelencia en la industria farmacéutica y de la salud, <span style="color: #FFFF00;">conectando y potenciando el crecimiento de profesionales, empresas e instituciones.</span>"
-                            </div>
-                          </div>
+                            <p>
+                               <span style="font-weight: bold; color: #784EE2;">Latin Pharma Meeting </span>es un evento dinámico que combina reuniones presenciales y webinars, diseñado para abordar temas específicos dentro del sector farmacéutico a nivel general y local. Estas reuniones proporcionan un espacio para que profesionales de la industria intercambien opiniones, discutan las mejores opciones para resolver los desafíos que surgen en diversos campos del sector farmacéutico y exploren oportunidades de colaboración. 
+                            </p>
+                            <p>
+                                Durante <span style="font-weight: bold; color: #784EE2;">Latin Pharma Meeting </span>, se organizan sesiones interactivas y paneles de discusión que cubren una amplia gama de temas, desde desarrollo de productos y regulaciones hasta marketing y acceso al mercado. Además, se ofrecen sesiones exclusivas con una visión local, donde se abordan los desafíos y oportunidades específicos de cada región.
+                            </p>
+                        </div>
                     </div>
+                    <div class="card2"> 
+                        <div style="color: white; text-align: center; font-weight: bold;"> 
+                            El objetivo principal de Latin Pharma Meeting es fomentar el intercambio de conocimientos, promover la colaboración y generar soluciones innovadoras para los problemas actuales y futuros de la industria farmacéutica en América Latina y más allá.
+                        </div> 
+                    </div>   
                 </div>
-                <div class="col-xl-4 feature-multi">
-                    <div style="
-                        background-color: #A5DCE8;
-                        border: 2px solid transparent;
-                        transition: all ease 0.4s;
-                        margin: 0 0 30px 0;
-                        border-radius: 50px;
-                        box-shadow: none;
-                        border-color: black;
-                        height:600px;
-
-                    ">
-                        <div style="text-align: center;  margin-top: 25px;"><img src="assets/img/valores.png"  alt="features image"></div>
-                        <div class="feature-content"> 
-                            <div style="padding-top: 10px; padding-left: 25px; padding-bottom: 55px; padding-right: 25px; color: #002060; font-size: 25px;">  
-                                <ul>
-                                    <li>Innovación</li>
-                                    <li>Experiencia</li>
-                                    <li>Especialización</li>
-                                    <li>Transparencia</li>
-                                    <li>Desarrollo Talento Humano</li>
-                                    <li>Confidencialidad</li>
-                                    <li>Pasión</li>
-                                    <li>Sentido de Urgendia</li> 
-                                </ul>
-                            </div>
-                          </div>
-                    </div>
                 </div>
-                
             </div>
         </div>
-    </section>
+    </section> 
   </div>
   <footer >
          
@@ -337,7 +337,7 @@
         
             <div class="row align-items-center">
                 <div class="col-auto">
-                    <h5 style="color: #FFC000;">"Conecta, crece y destaca"</h5>
+                    <img src="assets/img/aproc.png" alt="image">
                 </div>
                 
             </div> 
