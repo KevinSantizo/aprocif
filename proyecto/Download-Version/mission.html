@@ -4,20 +4,27 @@
 <head>
 
     <style>
-        footer ul {
-            list-style: none;
-            text-align: center;
+        .float{
+            position:fixed;
+            width:60px;
+            height:60px;
+            bottom:40px;
+            right:40px;
+            background-color:#25d366;
+            color:#FFF;
+            border-radius:50px;
+            text-align:center;
+            font-size:30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index:100;
         }
 
-        footer div {
-            margin: 0 auto;
-            display: inline-block;
+        .my-float{
+            margin-top:16px;
         }
 
-        footer {
-            display:flex; 
-        }
     </style>
+ 
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Aprocif</title>
@@ -30,8 +37,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">-->
 
     <!--==============================
 	  Google Fonts
@@ -92,12 +99,12 @@
         <div class="vs-menu-area text-center">
             <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index-2-slick.html"><img src="assets/img/logo3.png"  style="height: 150px; width: 300px;" alt="Bizino"></a>
+                <a href="aprocif.html"><img src="assets/img/logo3.png"  style="height: 150px; width: 300px;" alt="Bizino"></a>
             </div>
             <div class="vs-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="index-2-slick">Inicio</a>
+                        <a href="aprocif.html">Inicio</a>
                         <ul class="sub-menu">
                             <li><a href="history.html">Historia</a></li>
                             <li><a href="about.html">¿Quiénes somos?</a></li>
@@ -108,21 +115,26 @@
                             <li><a href="membership.html">Membresías</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children">
-                        <a href="about.html">Servicios</a>
-                        <ul class="sub-menu">
-                            <li><a href="#">Miembro Aprocif</a></li>
-                            <li><a href="latin_pharma.html">Latin Pharma</a></li>
-                            <li><a href="latin_job.html">Farma Empleo</a></li>
-                            <li><a href="pharma_hunt.html">Pharma Hunt</a></li>
-                            <li><a href="directorio_farmaceutico.html">Directorio Farmacéutico</a></li>
-                            <li><a href="bitacora.html">Bitácora Farmacéutica</a></li>
-                            <li><a href="master.html">Master Visita Médica</a></li>
-                            <li><a href="#">Premios Aprocif</a></li>
-                            <li><a href="#">Pharma Good Work Life</a></li>
-                            <li><a href="#">Instituto Aprocif</a></li>
-                        </ul>
-                    </li>
+                     <li  class="menu-item-has-children">
+                                            <a href="latin_pharma.html">Servicios</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Miembro Aprocif</a></li>
+                                                <li><a href="latin_pharma.html">Latin Pharma</a></li>
+                                                <li><a href="latin_meeting.html">Latin Meeting</a></li>
+                                                <li><a href="latin_summit.html">Latin Summit</a></li>
+                                                <li><a href="latin_business.html">Latin Business</a></li>
+                                                <li><a href="latin_business2.html">Latin Business 2</a></li>
+
+                                                <li><a href="latin_job.html">Farma Empleo</a></li>
+                                                <li><a href="pharma_hunt.html">Pharma Hunt</a></li>
+                                                <li><a href="directorio_farmaceutico.html">Directorio Farmacéutico</a></li>
+                                                <li><a href="bitacora.html">Bitácora Farmacéutica</a></li>
+                                                <li><a href="master.html">Master Visita Médica</a></li>
+                                                <li><a href="premios_aprocif.html">Premios Aprocif</a></li>
+                                                <li><a href="pharma_good.html">Pharma Good Work Life</a></li>
+                                                <li><a href="instituto.html">Instituto Aprocif</a></li>
+                                            </ul>
+                                        </li>
                     <li>
                         <a href="#">Eventos</a>
                     </li>
@@ -134,10 +146,10 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Contacto</a>
+                        <a href="contact.html">Contacto</a>
                     </li>
                     <li>
-                        <a href="#">Ejecutivos</a>
+                        <a href="estructura_organizativa.html">Ejecutivos</a>
                     </li>
                 </ul>
             </div>
@@ -159,7 +171,7 @@
                     </div>
                     <div class="col-auto">
                         <div class="header-dropdown">
-                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-globe"></i>English</a>
+                            <!--  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-globe"></i>English</a>-->
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
                                 <li>
                                     <a href="#">German</a>
@@ -191,14 +203,14 @@
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <div class="header-logo">
-                                    <a href="index-2-slick.html"><img src="assets/img/logo3.png"  style="height: 150px; width: 300px;" alt="Bizino"></a>
+                                    <a href="aprocif.html"><img src="assets/img/logo3.png"  style="height: 150px; width: 300px;" alt="Bizino"></a>
                                 </div>
                             </div>
                             <div class="col-auto col-xl text-xl-center">
                                 <nav class="main-menu menu-style2 d-none d-lg-block">
                                     <ul>
                                         <li class="menu-item-has-children">
-                                            <a href="index-2-slick.html"><span class="has-new-lable">Inicio</span></a>
+                                            <a href="aprocif.html"><span class="has-new-lable">Inicio</span></a>
                                             <ul class="sub-menu">
                                                 <li><a href="history.html">Historia</a></li>
                                                 <li><a href="about.html">¿Quiénes somos?</a></li>
@@ -210,18 +222,23 @@
                                             </ul>
                                         </li>
                                         <li  class="menu-item-has-children">
-                                            <a href="about.html">Servicios</a>
+                                            <a href="latin_pharma.html">Servicios</a>
                                             <ul class="sub-menu">
                                                 <li><a href="#">Miembro Aprocif</a></li>
                                                 <li><a href="latin_pharma.html">Latin Pharma</a></li>
+                                                <li><a href="latin_meeting.html">Latin Meeting</a></li>
+                                                <li><a href="latin_summit.html">Latin Summit</a></li>
+                                                <li><a href="latin_business.html">Latin Business</a></li>
+                                                <li><a href="latin_business2.html">Latin Business 2</a></li>
+
                                                 <li><a href="latin_job.html">Farma Empleo</a></li>
                                                 <li><a href="pharma_hunt.html">Pharma Hunt</a></li>
                                                 <li><a href="directorio_farmaceutico.html">Directorio Farmacéutico</a></li>
                                                 <li><a href="bitacora.html">Bitácora Farmacéutica</a></li>
                                                 <li><a href="master.html">Master Visita Médica</a></li>
-                                                <li><a href="#">Premios Aprocif</a></li>
-                                                <li><a href="#">Pharma Good Work Life</a></li>
-                                                <li><a href="#">Instituto Aprocif</a></li>
+                                                <li><a href="premios_aprocif.html">Premios Aprocif</a></li>
+                                                <li><a href="pharma_good.html">Pharma Good Work Life</a></li>
+                                                <li><a href="instituto.html">Instituto Aprocif</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -236,10 +253,10 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">Contacto</a>
+                                            <a href="contact.html">Contacto</a>
                                         </li>
                                         <li>
-                                            <a href="#">Ejecutivos</a>
+                                            <a href="estructura_organizativa.html">Ejecutivos</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -344,7 +361,10 @@
     </div>
 </footer> 
   
-    <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=50254870220&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20LosServicios de Aprocif%202." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
 
 
     <!--********************************
